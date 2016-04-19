@@ -1,4 +1,4 @@
-# viola-jones 0.1
+# Viola-Jones 0.1
 Viola-Jones framework in Python
 
 This software uses a single Adaboost classifier for now. I plan to implement the cascade-classifier soon. It depends upon the following libraries: scikit-learn,scikit-image, numpy, scipy, PIL. It also uses Joblib library for test/detection part for now.
