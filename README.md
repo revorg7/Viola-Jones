@@ -12,4 +12,4 @@ IN THE TEST FLODER:
 sliding_window.py: Took an image, heurestically choose window-size, downsampled each window to 19X19, calculated (all)harr-features, and created new numpy-array. Then tested the model on these windows and plotted the detected windows.
 
 #TODO
-In detection phase, not all harr-features needs to be calculated(that was the whole-idea of Viola-Jones framework). But since I cannot directly extract the underlying decision-stumps used in my sklearn-adaboost model. I have to bear with it for now. Thus it even takes ~15 mins even to detect in a single image for now.
+In detection phase, not all harr-features needs to be calculated(that was the whole-idea of Viola-Jones framework). But since I cannot directly extract the underlying decision-stumps used in my sklearn-adaboost model. I have to bear with it for now. Thus it takes ~15 mins even to detect in a single image for now.
